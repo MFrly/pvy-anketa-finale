@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css"> <!-- Oprava cesty k CSS souboru -->
+    <title>Webová anketa</title>
+</head>
+<body>
+    <h1>Anketa o typu relaxace a odpočinku</h1>
+    <form action="/submit" method="post" class="form-container">
+        <div>
+            <label for="hours">Kolik hodin týdně věnujete aktivitám na relaxaci a odpočinek (např. čtení, meditace, poslech hudby)?</label>
+            <input type="number" step="0.1" id="hours" name="hours" required>
+        </div>
+        <p></p>
+        <p></p>
+        <div>
+            <label>Vyberte si hlavní formu relaxace:</label>
+            <select id="relaxation" name="relaxation">
+                <option value="čtení">Čtení</option>
+                <option value="meditace">Meditace</option>
+                <option value="poslech hudby">Poslech hudby</option>
+                <option value="procházky v přírodě">Procházky v přírodě</option>
+                <option value="koupel">Koupel</option>
+                <option value="cvičení jógy">Cvičení jógy</option>
+                <option value="kreativní aktivity">Kreativní aktivity (malování, kreslení)</option>
+                <option value="jízda na kole">Jízda na kole</option>
+                <option value="sezení na zahradě">Sezení na zahradě</option>
+            </select>
+        </div>
+        <p></p>
+        <p></p>
+        <div>
+            <label for="importance">Jakou důležitost přisuzujete svým relaxačním aktivitám? (0 = žádnou, 5 = velmi důležitou)</label>
+            <input type="range" id="importance" name="importance" min="0" max="5" step="1">
+        </div>
+        <p></p>
+        <p></p>
+        <div>
+            <label for="inspiration">Co vás inspiruje k vašim relaxačním aktivitám?</label>
+            <input type="text" id="inspiration" name="inspiration">
+        </div>
+        
+        <!-- Nové otázky -->
+        <p></p>
+        <p></p>
+        <div>
+            <label for="favorite-activity">Která z vašich relaxačních aktivit je vaše oblíbená a proč?</label>
+            <textarea id="favorite-activity" name="favorite-activity"></textarea>
+        </div>
+        <p></p>
+        <p></p>
+        <div>
+            <label for="improvement">Jak byste chtěli zlepšit své relaxační aktivity?</label>
+            <textarea id="improvement" name="improvement"></textarea>
+        </div>
+
+        <button style="text-align: center;" type="submit">Odeslat odpovědi</button>
+    </form>
+    
+</body>
+</html>

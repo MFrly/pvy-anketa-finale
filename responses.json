@@ -1,0 +1,64 @@
+[
+  {
+    "id": 1710794019428,
+    "timestamp": "2024-03-18T20:33:39.428Z",
+    "answers": {
+      "hours": "0.5",
+      "sport": "čtení",
+      "importance": "4",
+      "roleModel": "Matyáš Bezděk"
+    }
+  },
+  {
+    "id": 1712261871533,
+    "timestamp": "2024-04-04T20:17:51.533Z",
+    "answers": {
+      "hours": "0.1",
+      "relaxation": "čtení",
+      "importance": "3",
+      "inspiration": "gfhd"
+    }
+  },
+  {
+    "id": 1712262066665,
+    "timestamp": "2024-04-04T20:21:06.665Z",
+    "answers": {
+      "hours": "0.1",
+      "relaxation": "čtení",
+      "importance": "3",
+      "inspiration": "gfhd"
+    }
+  },
+  {
+    "id": 1712262703569,
+    "timestamp": "2024-04-04T20:31:43.569Z",
+    "answers": {
+      "hours": "0.5",
+      "relaxation": "sezení na zahradě",
+      "importance": "4",
+      "inspiration": "sex"
+    }
+  },
+  {
+    "id": 1712513460520,
+    "timestamp": "2024-04-07T18:11:00.520Z",
+    "answers": {
+      "hours": "2",
+      "relaxation": "čtení",
+      "importance": "3",
+      "inspiration": "sfg"
+    }
+  },
+  {
+    "id": 1712513660715,
+    "timestamp": "2024-04-07T18:14:20.715Z",
+    "answers": {
+      "hours": "1",
+      "relaxation": "čtení",
+      "importance": "5",
+      "inspiration": "stres",
+      "favorite-activity": "čtení, kvůli toho že mi pomáhá rozvíjet fantazii",
+      "improvement": "chci si na ně udělat více času"
+    }
+  }
+]
